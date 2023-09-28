@@ -11,8 +11,8 @@
 </head>
 <body onresize="mudouTamanho()">
     <header>
-        <h1>Meu site</h1>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        
+        <i id="burguer" class="material-icons" onclick="entraMenu()"  >menu</i>
         <menu id="itens">
             <ul>
                 <li><a href="https://app.powerbi.com/view?r=eyJrIjoiNTFhNzU3MWItZjc1Ni00OTg5LWIwMjctOGM5OGY4MWZhZTVmIiwidCI6Ijk5YTI4ZjRmLTk3ZWMtNDA1Ny1hZTg0LTUxYTM1ZDRjN2UyNiJ9" target="frame">Opção 1</a></li>
@@ -39,17 +39,17 @@
 
 
 
-        function clickMenu( ) { 
+        function entraMenu( ) { 
            if (itens.style.display == 'block') {
             itens.style.display = 'none'
            } else {
             itens.style.display = 'block'
-           }
+           } 
+        }
 
         
 
-
-        }
+        
     </script>
 </body>
 </html>
